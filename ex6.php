@@ -21,24 +21,14 @@
     </style>
 </head>
 <body>
-    <h1>โปรแกรม ภาษา html</h1>
+    <h1>โปรแกรม ภาษา PHP แสดงข้อมูล</h1>
     664485021 นายปัญญาวัฒน์ ภุมมะดิลก <br>
-    หมู่เรียน66/96
-    <?php 
-    // comment test
-    echo "<h2> สวัสดีปีใหม่</h2>";
-    echo " <br>ขอให้ทุกคนประสบแต่ความสุข";
-    // สร้างตัวแปร
-    $name="time";
-    $surname="panyawat bhummadilog";
-    echo "<br> my name is " .$name." ".$surname;
-    // ตัวแปรตัวเลข
-    $x=15;
-    $y=7;
-    $z=$x+$y;
-    echo "<br>ค่าผลบวกเท่ากับ ".$z;
-    $z=$x*$y;
-    echo "<br>ค่าผลคูณเท่ากับ ".$z;
+    หมู่เรียน66/96 <br>
+
+    <?php
+        $name = $_POST["n"];
+        $surname = $_POST["s"];
+        echo"my name is ".$name." ".$surname;
     ?>
 </body>
 </html>

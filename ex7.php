@@ -21,24 +21,14 @@
     </style>
 </head>
 <body>
-    <h1>โปรแกรม ภาษา html</h1>
+    <h1>โปรแกรม ภาษา PHP สร้างฟอร์มรับข้อมูล</h1>
     664485021 นายปัญญาวัฒน์ ภุมมะดิลก <br>
-    หมู่เรียน66/96
-    <?php 
-    // comment test
-    echo "<h2> สวัสดีปีใหม่</h2>";
-    echo " <br>ขอให้ทุกคนประสบแต่ความสุข";
-    // สร้างตัวแปร
-    $name="time";
-    $surname="panyawat bhummadilog";
-    echo "<br> my name is " .$name." ".$surname;
-    // ตัวแปรตัวเลข
-    $x=15;
-    $y=7;
-    $z=$x+$y;
-    echo "<br>ค่าผลบวกเท่ากับ ".$z;
-    $z=$x*$y;
-    echo "<br>ค่าผลคูณเท่ากับ ".$z;
-    ?>
+    หมู่เรียน66/96 
+    <h2>โปรแกรมพื้นที่สี่เหลี่ยมผืนผ้า</h2>
+    <form action="ex8.php" method="POST">
+        กว้าง : <input type="text" name="w">
+        ยาว : <input type="text" name="l"> <br>
+        <input type="submit" value="CALC">
+    </form>
 </body>
 </html>
